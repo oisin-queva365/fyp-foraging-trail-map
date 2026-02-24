@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-gpx/gpx.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9/dist/leaflet.css"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #map {
+        /* configure the size of the map */
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      // initialize Leaflet
+      var map = L.map("map").setView([51.7, -8.5], 12);
+      // add the OpenStreetMap tiles
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+        attribution:
+          '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      }).addTo(map);
+
+      // show the scale bar on the lower left corner
+      L.control.scale({ imperial: true, metric: true }).addTo(map);
+
+      //chossing custom icon(markers)
+      var myIcon = L.icon({
+        iconUrl: "turquoise_marker.png",
+        iconSize: [28, 55],
+        iconAnchor: [20, 54],
+        popupAnchor: [-3, -76],
+      });
+      // show a marker on the map
+      var centre_of_the_world1 = L.marker([51.7, -8.5], {
+        icon: myIcon,
+      }).bindPopup("The center of the world");
+
+      var nettles1 = L.marker([51.696802, -8.526483]).bindPopup("Nettles");
+
+      var blackberries_compass1 = L.marker([51.696348, -8.529917]).bindPopup(
+        "Blackberry Bushes",
+      );
+      var trails = new L.GPX(
+        "https://raw.githubusercontent.com/oisin-queva365/fyp-foraging-trail-map/refs/heads/main/compasshill_walk.gpx",
+        {
+          async: true,
+        },
+      )
+        .on("loaded", function (e) {
+          console.log("GPX loaded");
+          map.fitBounds(e.target.getBounds());
+        })
+        .on("error", function (e) {
+          console.log("GPX failed", e);
+        });
+
+      //grouping the plants into 1 group
+      var plants = L.layerGroup([
+        centre_of_the_world1,
+        nettles1,
+        blackberries_compass1,
+      ]);
+      // adding overlay to groups so that we can add multiple layer toggle options
+      var overlays = {
+        "Plant Markers": plants,
+        "Trail Routes": trails,
+      };
+      L.control.layers(null, overlays).addTo(map);
+      plants.addTo(map);
+      trails.addTo(map); // THIS IS IMPORTANT
+    </script>
+  </body>
+</html>
