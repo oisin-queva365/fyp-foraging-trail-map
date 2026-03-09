@@ -1,7 +1,5 @@
-{
-  ("type");
-  ("FeatureCollection", "features");
-  [
+{"type": "FeatureCollection",
+  "features": [
     {
       type: "Feature",
       properties: {
@@ -1632,5 +1630,5 @@
         bbox: [-8.68321, 51.63695, -8.70457, 51.62557],
       },
     },
-  ];
+  ]
 }
