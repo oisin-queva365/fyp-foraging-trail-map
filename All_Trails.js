@@ -1,23 +1,25 @@
-{"type": "FeatureCollection",
-  "features": [
+{
+  "type":
+  "FeatureCollection", "features":
+  [
     {
-      'type': "Feature",
-      'properties': {
-        'name': "Compass Hill Loop, Kinsale",
-        'distance': "4.2km",
-        'difficulty': "Easy",
-        'description':
+      "type": "Feature",
+      "properties": {
+        "name": "Compass Hill Loop, Kinsale",
+        "distance": "4.2km",
+        "difficulty": "Easy",
+        "description":
           "A scenic woodland and coastal walk featuring several forageable species.",
-        'url': "https://oisinqueva.cloud/compass-hill/",
-        'images': [
+        "url": "https://oisinqueva.cloud/compass-hill/",
+        "images": [
           "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-1.jpg",
           "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-2.jpg",
-          "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-3.jpg",
-        ],
+          "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-3.jpg"
+        ]
       },
-      'geometry': {
-        'type': "MultiLineString",
-        'coordinates': [
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
           [
             [-8.52109, 51.70235, 20.0],
             [-8.52114, 51.70233, 21.0],
@@ -89,25 +91,25 @@
             [-8.52395, 51.70262, 45.0],
             [-8.5232, 51.70278, 41.0],
             [-8.52222, 51.703, 31.0],
-            [-8.52196, 51.70268, 30.0],
-          ],
+            [-8.52196, 51.70268, 30.0]
+          ]
         ],
-        'bbox': [-8.51942, 51.703, -8.5303, 51.69621],
-      },
+        "bbox": [-8.51942, 51.703, -8.5303, 51.69621]
+      }
     },
     {
-      'type': "Feature",
-      'properties': {
-        'name': "Dunderrow Trail walk, Kinsale",
-        'distance': "1.8km",
-        'difficulty': "Easy",
-        'description':
+      "type": "Feature",
+      "properties": {
+        "name": "Dunderrow Trail walk, Kinsale",
+        "distance": "1.8km",
+        "difficulty": "Easy",
+        "description":
           "A short walk through woodland, with a trail along the River Bandon, with swings for kids and lovely escape into nature.",
-        'url': "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
       },
-      'geometry': {
-        'type': "MultiLineString",
-        'coordinates': [
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
           [
             [-8.59907, 51.71949, 35.0],
             [-8.59929, 51.71942, 36.0],
@@ -927,25 +929,25 @@
             [-8.59936, 51.71902, 34.0],
             [-8.59943, 51.71914, 35.0],
             [-8.59936, 51.71931, 36.0],
-            [-8.59931, 51.7194, 36.0],
-          ],
+            [-8.59931, 51.7194, 36.0]
+          ]
         ],
-        'bbox': [-8.59907, 51.71962, -8.61014, 51.71747],
-      },
+        "bbox": [-8.59907, 51.71962, -8.61014, 51.71747]
+      }
     },
     {
-      'type': "Feature",
-      'properties': {
-        'name': "The Fuchsia Loop, Courtmacsherry",
-        'distance': "5.1km",
-        'difficulty': "Easy",
-        'description':
+      "type": "Feature",
+      "properties": {
+        "name": "The Fuchsia Loop, Courtmacsherry",
+        "distance": "5.1km",
+        "difficulty": "Easy",
+        "description":
           "A pleasant, well-marked trail that takes you through the lovely countryside of Courtmacsherry and along the coastal cliffs. This trail offers scenic views of the sea and the surrounding landscape that also offer birdwatching and historic buildings.",
-        'url': "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/",
+        "url": "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/"
       },
-      'geometry': {
-        'type': "MultiLineString",
-        'coordinates': [
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
           [
             [-8.69695, 51.63597, 7.0],
             [-8.69732, 51.6359, 7.0],
@@ -1624,11 +1626,11 @@
             [-8.69771, 51.63573, 6.0],
             [-8.6975, 51.63583, 7.0],
             [-8.69732, 51.6359, 7.0],
-            [-8.69695, 51.63597, 7.0],
-          ],
+            [-8.69695, 51.63597, 7.0]
+          ]
         ],
-        'bbox': [-8.68321, 51.63695, -8.70457, 51.62557],
-      },
-    },
+        "bbox": [-8.68321, 51.63695, -8.70457, 51.62557]
+      }
+    }
   ]
 }
