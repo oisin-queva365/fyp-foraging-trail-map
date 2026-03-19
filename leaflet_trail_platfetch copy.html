@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet-groupedlayercontrol@0.6.1/src/leaflet.groupedlayercontrol.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-groupedlayercontrol@0.6.1/src/leaflet.groupedlayercontrol.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <div id="trail-panel">
+      <button id="close-btn" onclick="closePanel()">&#x2715;</button>
+
+      <div id="photo-strip">
+        <img
+          src="Compass_photo/PXL_20260306_102311260.jpg"
+          class="active"
+          alt="Trail photo 1"
+        />
+        <img
+          src="Compass_photo/PXL_20260306_102347681.jpg"
+          alt="Trail photo 2"
+        />
+        <img src="Compass_photo/IMG20220305185030.jpg" alt="Trail photo 3" />
+        <button class="photo-arrow" id="prev-photo">&#8249;</button>
+        <button class="photo-arrow" id="next-photo">&#8250;</button>
+        <div class="photo-dots">
+          <button class="photo-dot active" data-idx="0"></button>
+          <button class="photo-dot" data-idx="1"></button>
+          <button class="photo-dot" data-idx="2"></button>
+        </div>
+      </div>
+
+      <div id="panel-body">
+        <h2 id="display-title">Compass Hill Loop</h2>
+        <div class="stats">
+          <span
+            ><label
+              style="
+                font-size: 11px;
+                color: #000000;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+              "
+              >Distance</label
+            ><strong id="display-distance">4.2 km</strong></span
+          >
+          <span
+            ><label
+              style="
+                font-size: 11px;
+                color: #888;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+              "
+              >Difficulty</label
+            ><strong>Easy</strong></span
+          >
+        </div>
+        <p id="display-desc">
+          A scenic woodland and coastal walk featuring several forageable
+          species.
+        </p>
+
+        <div class="field-group">
+          <label>Trail Name</label
+          ><input
+            type="text"
+            id="edit-title"
+            value="Compass Hill Loop"
+            oninput="
+              document.getElementById('display-title').textContent = this.value
+            "
+          />
+        </div>
+        <div class="field-group">
+          <label>Distance</label
+          ><input
+            type="text"
+            id="edit-distance"
+            value="4.2 km"
+            oninput="
+              document.getElementById('display-distance').textContent =
+                this.value
+            "
+          />
+        </div>
+        <div class="field-group">
+          <label>Description</label
+          ><textarea
+            id="edit-desc"
+            rows="3"
+            oninput="
+              document.getElementById('display-desc').textContent = this.value
+            "
+          >
+A scenic woodland and coastal walk featuring several forageable species.</textarea
+          >
+        </div>
+        <div class="field-group">
+          <label>Webpage URL</label
+          ><input
+            type="text"
+            id="edit-url"
+            value="https://oisinqueva.cloud/compass-hill/"
+            oninput="document.getElementById('visit-btn').href = this.value"
+          />
+        </div>
+
+        <a
+          href="https://oisinqueva.cloud/compass-hill/"
+          target="_blank"
+          class="visit-link"
+          id="visit-link"
+          >Visit Trail Page</a
+        >
+      </div>
+    </div>
+    <!-- calling the JavaScript file -->
+    <script src="leaflet_script.js"></script>
+  </body>
+</html>
