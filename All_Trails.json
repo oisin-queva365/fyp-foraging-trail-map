@@ -8,7 +8,7 @@
         "distance": "4.2km",
         "difficulty": "Easy",
         "description": "A scenic woodland and coastal walk featuring several forageable species.",
-        "color": "#90D5FF",
+        "color": "#0000FF",
         "url": "https://oisinqueva.cloud/compass-hill/",
         "images": [
           "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-1.jpg",
@@ -103,7 +103,7 @@
         "distance": "1.8km",
         "difficulty": "Easy",
         "description": "A short walk through woodland, with a trail along the River Bandon, with swings for kids and lovely escape into nature.",
-        "color": "#DAB1DA",
+        "color": "#CC8899",
         "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
       },
       "geometry": {
@@ -941,7 +941,7 @@
         "distance": "5.1km",
         "difficulty": "Easy",
         "description": "A pleasant, well-marked trail that takes you through the lovely countryside of Courtmacsherry and along the coastal cliffs. This trail offers scenic views of the sea and the surrounding landscape that also offer birdwatching and historic buildings.",
-        "color": "#FF474C",
+        "color": "#BA0000",
         "url": "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/"
       },
       "geometry": {
@@ -1638,7 +1638,7 @@
         "distance": "9.05km",
         "difficulty": "Moderate",
         "description": "Lovely trail walk along the Scilly walk overlooking Kinsale harbour, while walking past the historically significant Charles Fort.",
-        "color": "#d957b8",
+        "color": "#DaB1Da",
         "url": "https://oisinqueva.cloud/kinsale-to-lower-cobh-via-scilly-walk-loop/"
       },
       "geometry": {
@@ -2416,7 +2416,7 @@
         "distance": "8.2km",
         "difficulty": "Moderate",
         "description": "Beautiful coastal route. It's an easy-going route suitable for most abilities, so a wonderful opportunity to get outdoors. There are a variety of stunning photo opportunities along this trail. Make sure to check out the Lusitania Museum and the Old Head Signal Tower along the way. There is free parking available at the Garrettstown car park.",
-        "color": "#ecbf60",
+        "color": "#FF8C00",
         "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
       },
       "geometry": {
