@@ -8,12 +8,13 @@
         "distance": "4.2km",
         "difficulty": "Easy",
         "description": "A scenic woodland and coastal walk featuring several forageable species.",
-        "color": "#0000FF",
+        "color": "#90D5FF",
         "url": "https://oisinqueva.cloud/compass-hill/",
         "images": [
-          "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-1.jpg",
-          "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-2.jpg",
-          "https://oisinqueva.cloud/wp-content/uploads/2024/06/compass-hill-3.jpg"
+          "Trail_photos/Compass_Hill_photos/compass-hill-1.jpg",
+          "Trail_photos/Compass_Hill_photos/compass-hill-2.jpg",
+          "Trail_photos/Compass_Hill_photos/compass-hill-3.jpg",
+          "Trail_photos/Compass_Hill_photos/compass-hill-4.jpg"
         ]
       },
       "geometry": {
@@ -103,8 +104,14 @@
         "distance": "1.8km",
         "difficulty": "Easy",
         "description": "A short walk through woodland, with a trail along the River Bandon, with swings for kids and lovely escape into nature.",
-        "color": "#CC8899",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
+        "color": "#DAB1DA",
+        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "images": [
+          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-1.jpg",
+          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-2.jpg",
+          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-3.jpg",
+          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-4.jpg"
+        ]
       },
       "geometry": {
         "type": "MultiLineString",
@@ -941,8 +948,14 @@
         "distance": "5.1km",
         "difficulty": "Easy",
         "description": "A pleasant, well-marked trail that takes you through the lovely countryside of Courtmacsherry and along the coastal cliffs. This trail offers scenic views of the sea and the surrounding landscape that also offer birdwatching and historic buildings.",
-        "color": "#BA0000",
-        "url": "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/"
+        "color": "#FF474C",
+        "url": "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/",
+        "images": [
+          "Trail_photos/The_Fuchsia_Loop_photos/forest_courtmacsherry.jfif",
+          "Trail_photos/The_Fuchsia_Loop_photos/plants_forest_courtmacsherry.jfif",
+          "Trail_photos/The_Fuchsia_Loop_photos/views_courtmacsherry.jfif",
+          "Trail_photos/The_Fuchsia_Loop_photos/views_courtmacsherry.webp"
+        ]
       },
       "geometry": {
         "type": "MultiLineString",
@@ -1638,8 +1651,14 @@
         "distance": "9.05km",
         "difficulty": "Moderate",
         "description": "Lovely trail walk along the Scilly walk overlooking Kinsale harbour, while walking past the historically significant Charles Fort.",
-        "color": "#DaB1Da",
-        "url": "https://oisinqueva.cloud/kinsale-to-lower-cobh-via-scilly-walk-loop/"
+        "color": "#d957b8",
+        "url": "https://oisinqueva.cloud/kinsale-to-lower-cobh-via-scilly-walk-loop/",
+        "images": [
+          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/bulman_view.jfif",
+          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/scilly_walk_kinsale.jfif",
+          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/walkway.jfif",
+          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/scilly_walk_kinsale(2).jfif"
+        ]
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2092,7 +2111,13 @@
         "difficulty": "Moderate",
         "description": "The Rathclaren Loop is a walking route around Kilbritain. It's an all-road route that is marked by yellow waymarkers. There are only slight inclines so this is classified as an easy route. There is plenty of free parking is available at the Colite Forest entrance locally known as 'The Waterfalls'. This is an easy-going route that is suitable for most abilities, so a wonderful opportunity to get outdoors.",
         "color": "#022652",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
+        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "images": [
+          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/bridge_harbour_view.jfif",
+          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/forest_kilbritain.jfif",
+          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/forest_trail_kilbritan.jfif",
+          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/kilbritain_whale.jfif"
+        ]
       },
       "geometry": {
         "type": "MultiLineString",
@@ -2416,8 +2441,14 @@
         "distance": "8.2km",
         "difficulty": "Moderate",
         "description": "Beautiful coastal route. It's an easy-going route suitable for most abilities, so a wonderful opportunity to get outdoors. There are a variety of stunning photo opportunities along this trail. Make sure to check out the Lusitania Museum and the Old Head Signal Tower along the way. There is free parking available at the Garrettstown car park.",
-        "color": "#FF8C00",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/"
+        "color": "#ecbf60",
+        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "images": [
+          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views.jfif",
+          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views(2).jpeg",
+          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views(3).jfif",
+          "Trail_photos/Garrettstown_Old_Head_photos/Garrettstown_views.jpeg"
+        ]
       },
       "geometry": {
         "type": "MultiLineString",
