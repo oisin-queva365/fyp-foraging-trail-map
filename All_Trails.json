@@ -5,16 +5,16 @@
       "type": "Feature",
       "properties": {
         "name": "Compass Hill Loop, Kinsale",
-        "distance": "4.2km",
+        "distance": "2.3km",
         "difficulty": "Easy",
-        "description": "A scenic woodland and coastal walk featuring several forageable species.",
+        "description": "A scenic walk directly outside the town of Kinsale, offering beautiful harbour and coastal views in an almost fulll 360% loop. some views include Kinsale Horbour, Charles Fort, the Bulman, Scilly Walk and the River Bandon.",
         "color": "#90D5FF",
-        "url": "https://oisinqueva.cloud/compass-hill/",
+        "url": "https://forageyourpath.online/map-and-trails/compass-hill/",
         "images": [
-          "Trail_photos/Compass_Hill_photos/compass-hill-1.jpg",
-          "Trail_photos/Compass_Hill_photos/compass-hill-2.jpg",
-          "Trail_photos/Compass_Hill_photos/compass-hill-3.jpg",
-          "Trail_photos/Compass_Hill_photos/compass-hill-4.jpg"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg"
         ]
       },
       "geometry": {
@@ -105,12 +105,12 @@
         "difficulty": "Easy",
         "description": "A short walk through woodland, with a trail along the River Bandon, with swings for kids and lovely escape into nature.",
         "color": "#DAB1DA",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "url": "https://forageyourpath.online/map-and-trails/dunderrow-woods-trail-walk/",
         "images": [
-          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-1.jpg",
-          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-2.jpg",
-          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-3.jpg",
-          "Trail_photos/Dunderrow_River_Trail_Walk_photos/Dunderrow-photo-4.jpg"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/Dunderrow-photo-1-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/Dunderrow-photo-2-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/Dunderrow-photo-3-scaled.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/Dunderrow-photo-4-scaled.jpg"
         ]
       },
       "geometry": {
@@ -949,12 +949,12 @@
         "difficulty": "Easy",
         "description": "A pleasant, well-marked trail that takes you through the lovely countryside of Courtmacsherry and along the coastal cliffs. This trail offers scenic views of the sea and the surrounding landscape that also offer birdwatching and historic buildings.",
         "color": "#FF474C",
-        "url": "https://oisinqueva.cloud/the-fuchsia-loop-courtmacsherry/",
+        "url": "https://forageyourpath.online/map-and-trails/fuchsia-loop-courtmacsherry/",
         "images": [
-          "Trail_photos/The_Fuchsia_Loop_photos/forest_courtmacsherry.jfif",
-          "Trail_photos/The_Fuchsia_Loop_photos/plants_forest_courtmacsherry.jfif",
-          "Trail_photos/The_Fuchsia_Loop_photos/views_courtmacsherry.jfif",
-          "Trail_photos/The_Fuchsia_Loop_photos/views_courtmacsherry.webp"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/forest_courtmacsherry.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/plants_forest_courtmacsherry.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/views_courtmacsherry.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/views_courtmacsherry.webp"
         ]
       },
       "geometry": {
@@ -1647,17 +1647,17 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Kinsale to Lower Cobh via Scilly walk loop",
+        "name": "Scilly walk to Lower Cobh, Kinsale",
         "distance": "9.05km",
         "difficulty": "Moderate",
         "description": "Lovely trail walk along the Scilly walk overlooking Kinsale harbour, while walking past the historically significant Charles Fort.",
         "color": "#d957b8",
-        "url": "https://oisinqueva.cloud/kinsale-to-lower-cobh-via-scilly-walk-loop/",
+        "url": "https://forageyourpath.online/map-and-trails/kinsale-to-lower-cobh/",
         "images": [
-          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/bulman_view.jfif",
-          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/scilly_walk_kinsale.jfif",
-          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/walkway.jfif",
-          "Trail_photos/Kinsale_to_Lower_Cobh_via_Scilly_Loop_photos/scilly_walk_kinsale(2).jfif"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/bulman.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/scilly_walk_kinsale.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/walkway.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/scilly_walk_kinsale4.webp"
         ]
       },
       "geometry": {
@@ -2111,12 +2111,12 @@
         "difficulty": "Moderate",
         "description": "The Rathclaren Loop is a walking route around Kilbritain. It's an all-road route that is marked by yellow waymarkers. There are only slight inclines so this is classified as an easy route. There is plenty of free parking is available at the Colite Forest entrance locally known as 'The Waterfalls'. This is an easy-going route that is suitable for most abilities, so a wonderful opportunity to get outdoors.",
         "color": "#022652",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "url": "https://forageyourpath.online/map-and-trails/rathclaren-loop-walk-kilbritain-trails/",
         "images": [
-          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/bridge_harbour_view.jfif",
-          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/forest_kilbritain.jfif",
-          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/forest_trail_kilbritan.jfif",
-          "Trail_photos/Kilbrittain_Trails__Rathclaren_Walk_photos/kilbritain_whale.jfif"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/bridge_harbour_view.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/forest_kilbritain.webp",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/forest_trail_kilbritan.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/kilbritain_whale-1.jpg"
         ]
       },
       "geometry": {
@@ -2442,12 +2442,12 @@
         "difficulty": "Moderate",
         "description": "Beautiful coastal route. It's an easy-going route suitable for most abilities, so a wonderful opportunity to get outdoors. There are a variety of stunning photo opportunities along this trail. Make sure to check out the Lusitania Museum and the Old Head Signal Tower along the way. There is free parking available at the Garrettstown car park.",
         "color": "#ecbf60",
-        "url": "https://oisinqueva.cloud/dunderrow-woods-trail-walk/",
+        "url": "https://forageyourpath.online/map-and-trails/garrettstown-to-old-head/",
         "images": [
-          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views.jfif",
-          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views(2).jpeg",
-          "Trail_photos/Garrettstown_Old_Head_photos/oldhead_views(3).jfif",
-          "Trail_photos/Garrettstown_Old_Head_photos/Garrettstown_views.jpeg"
+          "http://forageyourpath.online/wp-content/uploads/2026/03/oldhead_views.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/oldhead_views2.jpeg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/oldhead_views3.jpg",
+          "http://forageyourpath.online/wp-content/uploads/2026/03/Garrettstown_views.jpeg"
         ]
       },
       "geometry": {
