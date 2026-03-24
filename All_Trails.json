@@ -11,10 +11,10 @@
         "color": "#90D5FF",
         "url": "https://forageyourpath.online/map-and-trails/compass-hill/",
         "images": [
-          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
-          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
-          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg",
-          "http://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-1-scaled.jpg"
+          "https://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-1-scaled.webp",
+          "https://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-2-scaled.webp",
+          "https://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-3-scaled.webp",
+          "https://forageyourpath.online/wp-content/uploads/2026/03/compass-hill-4-1.webp"
         ]
       },
       "geometry": {
@@ -101,7 +101,7 @@
       "type": "Feature",
       "properties": {
         "name": "Dunderrow Trail walk, Kinsale",
-        "distance": "1.8km",
+        "distance": "1.9km",
         "difficulty": "Easy",
         "description": "A short walk through woodland, with a trail along the River Bandon, with swings for kids and lovely escape into nature.",
         "color": "#DAB1DA",
@@ -946,7 +946,7 @@
       "properties": {
         "name": "The Fuchsia Loop, Courtmacsherry",
         "distance": "5.1km",
-        "difficulty": "Easy",
+        "difficulty": "Moderate",
         "description": "A pleasant, well-marked trail that takes you through the lovely countryside of Courtmacsherry and along the coastal cliffs. This trail offers scenic views of the sea and the surrounding landscape that also offer birdwatching and historic buildings.",
         "color": "#FF474C",
         "url": "https://forageyourpath.online/map-and-trails/fuchsia-loop-courtmacsherry/",
